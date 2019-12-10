@@ -13,9 +13,35 @@ La struttura del testo si rifà a un approccio sempre verde, scandito secondo qu
 - distance vector vs link-state;
 - come funziona BGP;
 - sessioni BGP;
-- processo di routing;
+- processo di instradamento;
 - controllo degli instradamenti;
 - filtri e manipolazioni;
 - ridondanza e bilanciamento.
 
 Per quanto possibile saranno indicate le fonti, le migliori pratiche e le recenti tecnologie così come pubblicate da `RFC Editor <https://rfc-editor.org>`__.
+
+Protocolli di routing: fondamenti e concetti
+--------
+
+
+Distance vector vs link-state
+--------
+
+
+Come funziona BGP
+--------
+
+Sessioni BGP
+--------
+
+Processo di instradamento
+--------
+
+Controllo degli instradamenti
+--------
+
+Filtri e manipolazioni
+--------
+
+Ridondanza e bilanciamento
+--------
