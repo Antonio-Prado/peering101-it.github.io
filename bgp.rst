@@ -9,7 +9,7 @@ L'intento dunque non è quello di tradurre e parafrasare le RFC (*Request for co
 
 La struttura del testo si rifà a un approccio sempre verde, scandito secondo questi punti:
 
-- protocolli di routing: fondamenti e concetti;
+- protocolli di instradamento: fondamenti e concetti;
 - distance vector vs link-state;
 - come funziona BGP;
 - sessioni BGP;
