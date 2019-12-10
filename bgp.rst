@@ -27,7 +27,7 @@ L'attore protagonista in tutte le attività di instradamento si chiama *router*:
 
 Per consentire l'instradamento, il *router* segue una procedura che si articola in diversi punti:
 
-1. scelta di un cosiddetto protocollo di instradamento (*routing protocol*) utile a scambiare con altri *router* sulla rete informazioni sui percorsi e sulle destinazioni;
+1. scelta di un cosiddetto protocollo di instradamento (*routing protocol*) utile a scambiare con altri *router* della rete informazioni sui percorsi e sulle destinazioni;
 
 2. inserimento di tali informazioni in tabelle di instradamento (*routing protocol*), una per ciascun protocollo;
 
@@ -47,7 +47,6 @@ Per consentire l'instradamento, il *router* segue una procedura che si articola 
 
 Distance vector vs link-state
 --------
-
 
 Come funziona BGP
 --------
