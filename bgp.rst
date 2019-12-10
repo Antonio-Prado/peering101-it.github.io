@@ -23,6 +23,27 @@ Per quanto possibile saranno indicate le fonti, le migliori pratiche e le recent
 Protocolli di instradamento: fondamenti e concetti
 --------
 
+Il router è quell'apparato capace di instradare il traffico dei dispositivi secondo delle tabelle contenenti utili informazioni sui migliori percorsi verso tutte le destinazioni che conosce.
+
+Per consentire l'instradamento, il router segue una procedura che si articola in diversi punti:
+
+1. scelta di un cosiddetto protocollo di instradamento utile a scambiare con altri router sulla rete informazioni sui percorsi e sulle destinazioni;
+
+2. inserimento di tali informazioni in tabelle di instradamento, una per ciascun protocollo;
+
+3. analisi di tutte le tabelle popolate e scelta dei migliori percorsi verso ciascuna destinazione;
+
+4. associazione di ciascuna destinazione con l'indirizzo del dispositivo collegato all'interfaccia di uscita dei pacchetti verso quella destinazione;
+
+5. popolamento di una tabella di inoltro con queste ultime informazioni;
+
+6. individuazione dell'indirizzo di destinazione di un pacchetto ricevuto attraverso la lettura dell'intestazione di quel pacchetto;
+
+7. consultazione della tabella di inoltro per ottenere informazioni sull'interfaccia di uscita e l'indirizzo del dispositivo utile al raggiungimento della destinazione;
+
+8. compimento di eventuali altre azioni prima di inoltrare il pacchetto al successivo dispositivo;
+
+9. ripetizione della procedura fin quando la destinazione viene raggiunta secondo lo schema di un salto dopo l'altro (*hop-by-hop*), tipico delle reti a commutazione di pacchetto.
 
 Distance vector vs link-state
 --------
