@@ -4,7 +4,7 @@ BGP (Border Gateway Protocol)
 Premessa
 --------
 
-In questo spazio, nato da un'idea di `ITNOG <https://www.itnog.it/>`__ (the ITalian Network Operators Group), intendiamo fornire una breve guida ai principali concetti e meccanismi sottesi al funzionamento di Internet illustrando alcune delle architetture di instradamento basate sul protocollo *BGP, Border Gateway Protocol*.
+In questo spazio, nato da un'idea di `ITNOG <https://www.itnog.it/>`__ (*the ITalian Network Operators Group*), intendiamo fornire una breve guida ai principali concetti e meccanismi sottesi al funzionamento di Internet illustrando alcune delle architetture di instradamento basate sul protocollo *BGP, Border Gateway Protocol*.
 L'obiettivo dunque non è quello di tradurre e parafrasare le RFC (*Request for comments*), né quello di somministrare un ricettario; piuttosto vorremmo divulgare (con linguaggio semplice) i capisaldi della letteratura conditi con esempi intuitivi così da facilitare la strada a quanti vorranno poi approfondire.
 
 La struttura del testo si rifà a un approccio sempre verde, scandito secondo questi punti:
@@ -23,7 +23,7 @@ Per quanto possibile saranno indicate le fonti, le migliori pratiche e le recent
 Protocolli di instradamento: fondamenti e concetti
 --------
 
-L'attore protagonista in tutte le attività di instradamento si chiama router: quell'apparato capace di instradare il traffico dei dispositivi secondo delle tabelle contenenti indispensabili informazioni sui migliori percorsi (*best path*) verso tutte le destinazioni che conosce.
+L'attore protagonista in tutte le attività di instradamento si chiama *router*: quell'apparato capace di instradare il traffico dei dispositivi secondo delle tabelle contenenti indispensabili informazioni sui migliori percorsi (*best path*) verso tutte le destinazioni che conosce.
 
 Per consentire l'instradamento, il *router* segue una procedura che si articola in diversi punti:
 
