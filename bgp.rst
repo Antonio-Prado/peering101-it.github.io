@@ -23,7 +23,7 @@ Per quanto possibile saranno indicate le fonti, le migliori pratiche e le recent
 Protocolli di instradamento: fondamenti e concetti
 --------
 
-L'attore protagonista in tutte le attività di instradamento si chiama router: quell'apparato capace di instradare il traffico dei dispositivi secondo delle tabelle contenenti utili informazioni sui migliori percorsi verso tutte le destinazioni che conosce.
+L'attore protagonista in tutte le attività di instradamento si chiama router: quell'apparato capace di instradare il traffico dei dispositivi secondo delle tabelle contenenti indispensabili informazioni sui migliori percorsi verso tutte le destinazioni che conosce.
 
 Per consentire l'instradamento, il router segue una procedura che si articola in diversi punti:
 
